@@ -18,7 +18,7 @@ namespace Paint_Graphics
             points.Add(point);
         }
 
-        internal override void Draw(Graphics graphics)
+        public override void Draw(Graphics graphics)
         {
             for (int i = 0; i < Count - 1; i++)
             {

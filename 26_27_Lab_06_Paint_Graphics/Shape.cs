@@ -12,6 +12,6 @@ namespace Paint_Graphics
             this.pen = (Pen)pen.Clone();
         }
 
-        abstract internal void Draw(Graphics graphics);
+        abstract public void Draw(Graphics graphics);
     }
 }
